@@ -8,16 +8,84 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/logo-espacosfaciotti.png" alt="Logo do restaurante">
+            <img class="hero__logo" src="./images/logo-3.png" alt="Logo do restaurante">
             <p class="hero__text">
-                Venha comemorar esta data tão importante para mim em 10d 12h 20m 15s
+                Venha comemorar esta data tão importante para mim em <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua do restaurante, 1234 - São Paulo/SP
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Kit Churrasco</b>
+                        Trazer 1 kilo de carne e sua bebida
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data e Hora</b>
+                        21/07/2024 - 12h30
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar Presença:
+                </a>
+            </div>
         </div>
-    </header>   
+    </header>
+    <section class="event event--frontend">
+        <div class="container" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="event__details">
+                <h2 class="event__details__title">Um super espaço para comemorar</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, repellendus quos officiis pariatur a, magni, quo deleniti dignissimos cupiditate corporis voluptate. Dolor, quibusdam recusandae possimus numquam ratione a amet odio!
+            </p>
+            </div><!--event__details-->
+            <img class="event__image" src="./images/salao-2.png" alt="Salão">
+        </div><!--container-->        
+    </section><!--event event--frontend-->
+    <!--------------------------***************************-------------------->
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="event__details">
+                <h2 class="event__details__title">Uma super banda para animar</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, repellendus quos officiis pariatur a, magni, quo deleniti dignissimos cupiditate corporis voluptate. Dolor, quibusdam recusandae possimus numquam ratione a amet odio!
+            </p>
+            </div><!--event__details-->
+            <img class="event__image" src="./images/bandas-7.png" alt="Banda">
+        </div><!--container-->        
+    </section><!--event event--ux-ui-->
+    <!---------------------------**********************---------------------------->
+    <section class="event event--data-science">
+        <div class="container" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="event__details">
+                <h2 class="event__details__title">Mestre churrasqueiro para fazer o churrasco</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, repellendus quos officiis pariatur a, magni, quo deleniti dignissimos cupiditate corporis voluptate. Dolor, quibusdam recusandae possimus numquam ratione a amet odio!
+            </p>
+            </div><!--event__details-->
+            <img class="event__image" src="./images/menu-2.jpg" alt="Churrasqueiro">
+        </div><!--container-->        
+    </section><!--event event--data-science-->
+    <!---------------------------------******************---------------------->
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="event__details">
+                <h2 class="event__details__title">Vamos comemorar!</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, repellendus quos officiis pariatur a, magni, quo deleniti dignissimos cupiditate corporis voluptate. Dolor, quibusdam recusandae possimus numquam ratione a amet odio!
+            </p>
+            </div><!--event__details-->
+            <img class="event__image" src="./images/imagem-1.png" alt="Balões">
+        </div><!--container-->        
+    </section><!--event event--frontend-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
