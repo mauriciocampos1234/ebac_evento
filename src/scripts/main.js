@@ -25,5 +25,5 @@ const contaAsHoras = setInterval(function(){
             document.getElementById("contador").innerHTML = "Evento acabou";
     }
 
-    document.getElementById('contador').innerHTML = `${diasAteOEvento} dias ${horasAteOEvento} horas ${minutosAteOEvento} minutos ${segundosAteOEvento} segundos`;
+    document.getElementById('contador').innerHTML = `${diasAteOEvento} dias ${horasAteOEvento} H ${minutosAteOEvento} M ${segundosAteOEvento} S`;
 }, 1000);
